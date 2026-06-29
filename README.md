@@ -64,7 +64,7 @@ plus `references/`). To use it:
 
 1. **Clone** this repository (or drop the folder into your assistant's skills directory).
    ```bash
-   git clone https://github.com/<your-org>/ipr-review-skill.git
+   git clone https://github.com/worktodo77/ipr-review-skill.git
    ```
 2. **Invoke it** by asking your assistant to review a work product and attaching the file, e.g.:
    - *"Review my risk register before the gate review."*
