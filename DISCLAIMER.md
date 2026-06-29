@@ -52,6 +52,3 @@ standards and **do not reproduce or redistribute** any copyrighted source docume
 
 ## 8. No support
 The Tool is provided **without any obligation** of support, maintenance, updates, or correction.
-
-*This document is provided as a template and does not itself constitute legal advice; consider having
-qualified legal counsel review it for your jurisdiction and intended use.*
