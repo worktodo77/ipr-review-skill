@@ -80,23 +80,13 @@ work product is *not* sufficient — the review needs the actual data.
 
 ---
 
-## Worked example & validation
+## Status & testing
 
-The skill was piloted on a **real U.S. DOE Office of Science capital-project CD-3 (construction-start)
-review** and its output was compared against the **actual independent review committee's findings**.
-
-- **Data extraction matched the committee exactly** — e.g., activity, milestone, and risk counts and
-  severity distribution were identical to the committee's report.
-- **It surfaced the same substantive questions** the committee did, including the cost-**contingency
-  reconciliation** (estimate-uncertainty vs. discrete risk and the confidence level) and the large
-  schedule margin to completion.
-- **Its readiness verdict aligned** with the committee's recommendation.
-- **It also missed things the committee caught** (most notably a high-float / float-control issue that
-  the skill's own criteria cover but the run did not compute) — documented honestly as the improvement target.
-
-*The project's source files and the committee's report are **not** included in this repository.*
-
----
+This is an **early pilot**. During development it was exercised against sample project-controls
+work products to confirm it parses inputs and produces criteria-based findings in the expected
+format. It has **not been independently or formally validated**, no accuracy or performance claims
+are made, and every output **must be independently verified by a qualified professional** (see the
+[Disclaimer](#disclaimer--limitation-of-liability)).
 
 ## Standards referenced
 
@@ -125,7 +115,7 @@ standards body.
 - **Quality depends on inputs.** Findings are only as good as the data provided; absent context is
   flagged as "confirm/verify," not asserted as fact.
 - **Coverage ≠ execution.** A criterion being in the reference files does not guarantee the agent
-  computes it on every run (see the validation note above).
+  computes it on every run.
 - **No data leaves with the skill.** The repo ships criteria only — no project data, no source standards.
 
 ---
@@ -165,7 +155,7 @@ this language for your jurisdiction.)*
 Released under the **MIT License** — see [LICENSE](LICENSE). The MIT License itself includes an
 "AS IS," no-warranty, no-liability provision; the disclaimer above supplements it.
 
-## Status
+## Contributing & support
 
 Pilot. Issues and contributions welcome, but the project is provided without any commitment of support,
 maintenance, or fitness for any purpose.
