@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Do NOT commit project data, source standards, or generated reports
+*.xer
+*.xlsx
+*.xls
+*.pptx
+*.docx
+*.pdf
+/examples/data/
+/outputs/
