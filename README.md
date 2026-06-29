@@ -145,9 +145,7 @@ advised of the possibility of such damages**, and regardless of the legal theory
 claims, damages, liabilities, costs, or expenses (including reasonable legal fees) arising from your
 use of the tool or its outputs.
 
-See **[DISCLAIMER.md](DISCLAIMER.md)** for the full text. *(You may wish to have legal counsel review
-this language for your jurisdiction.)*
-
+See **[DISCLAIMER.md](DISCLAIMER.md)** for the full text. 
 ---
 
 ## License
